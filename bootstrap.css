@@ -1,0 +1,116 @@
+
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*-----------------------------------------------------------------------*/
+
+
+/* Styles for the logo image */
+
+
+/* Styles for the text below the logo */
+.logo-text {
+  font-family: 'Arial', sans-serif; /* Adjust the font family as needed */
+  font-size: 14px; /* Adjust the font size as needed */
+  margin-top: 0px; /* Adjust the margin as needed */
+}
+
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  
+    background-color: #186d8b; /* Replace 'yourColor' with the desired color code or name */
+    margin: 300px 0; /* Adjust the top margin as needed */
+}
+
+.fixed {
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.01); /* Adjust background color as needed */
+  color: #fff; /* Adjust text color as needed */
+  padding: 0; /* Adjust padding as needed */
+  /*box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);  Optional: Add a shadow for depth */
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Align items on the main axis (horizontal) */
+  align-items: center;/* Align items on the cross axis (vertical) */
+  float: right;
+  overflow: hidden;
+}
+.fixed-button{
+  float: right;
+
+  margin-right: .5em;
+  font-size: 5em;
+  font-family: cursive;
+  font-weight: 5em;
+}
+/* Add additional styles for your header content, such as h1, nav, ul, li, etc. */
+
+.fixed-logo {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000; /* Adjust the z-index as needed */
+}
+.fixed-image {
+  width: 150px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
+.fixed-button a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.fixed-button a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.fixed-button a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.centered-box {
+  
+  max-width: 50vw; /* Set the maximum width based on viewport width */
+  max-height: auto;
+  margin: 50px auto; /* Center the box horizontally */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.01);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 7em; /* Set the initial font size */
+  text-align: center;
+  font-family: cursive; 
+  letter-spacing: .05em;
+}
+.centered-box1 {
+  max-width: 50vw; /* Set the maximum width based on viewport width */
+  max-height: auto;
+  margin: 50px auto; /* Center the box horizontally */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.01);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 2em; /* Set the initial font size */
+  text-align: center;
+  font-family: cursive; 
+}
+
+/* Adjust styling as needed */
+
+/*-----------------------------------------------------------------------*/
